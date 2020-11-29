@@ -1,0 +1,44 @@
+html,
+body,
+#root, .app-main{
+  margin: 0;
+  height: 100%;
+}
+
+.app-main{
+  background-color: #004a95;
+}
+
+.main{
+  height: 100%;
+  background-color: orange;
+  margin: 0 15%;
+  padding: 0 15px;
+}
+
+h1{
+  text-align: center;
+  font-size: xx-large;
+  color: #004a95;
+  margin: 0;
+  font-size: 60px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  cursor: pointer;
+}
+
+.text-box{
+  display: flex;
+  justify-content: center;
+}
+
+.error-output{
+  margin-left: 10px;
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
